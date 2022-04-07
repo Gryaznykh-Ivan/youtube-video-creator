@@ -1,0 +1,41 @@
+{
+  "name": "youtube-video-creator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "chromedriver": "^98.0.1",
+    "dotenv": "^16.0.0",
+    "download": "^8.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "mongoose": "^6.2.4",
+    "node-fetch": "2.6",
+    "node-telegram-bot-api": "^0.56.0",
+    "path": "^0.12.7",
+    "selenium-webdriver": "^4.1.1",
+    "sha256": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/chromedriver": "^81.0.1",
+    "@types/download": "^8.0.1",
+    "@types/fluent-ffmpeg": "^2.1.20",
+    "@types/koa": "^2.13.4",
+    "@types/koa__cors": "^3.1.1",
+    "@types/koa-bodyparser": "^4.3.7",
+    "@types/koa-router": "^7.4.4",
+    "@types/node-fetch": "^2.6.1",
+    "@types/node-telegram-bot-api": "^0.56.0",
+    "@types/selenium-webdriver": "^4.0.18",
+    "@types/sha256": "^0.2.0"
+  }
+}
